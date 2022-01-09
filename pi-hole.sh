@@ -9,12 +9,12 @@ SSL_CERT_EMAIL="$2"
 WEB_ROOT="/var/www/html"
 
 if [ -z "$DNS_DOMAIN_NAME" ]; then
-  echo "🛑  Set a valid Private DNS Domain Name"
+  echo "Set a valid Private DNS Domain Name"
   exit 1
 fi
 
 if [ -z "$SSL_CERT_EMAIL" ]; then
-  echo "🛑  Set a valid Email Address To Get Certificate From Let's Encrypt"
+  echo "Set a valid Email Address To Get Certificate From Let's Encrypt"
   exit 1
 fi
 
